@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */	
+
+@media (min-width : 991px) {
+  .offcanvas {
+    visibility      : visible;
+    position        : relative;
+    background      : none;
+    border          : none;
+    justify-content : end;
+    color           : red;
+  }
+	.offcanvas-body {
+			overflow-y: inherit;
+	}
+}
+@media (max-width : 991px) {
+  .offcanvas {
+    width : 250px !important;
+  }
+  .offcanvas-start-lg {
+    top          : 0;
+    left         : 0;
+    border-right : 1px solid rgba(0, 0, 0, .2);
+    transform    : translateX(-100%);
+  }
+}
+.nav.navbar .nav-item .nav-link {
+  color:var(--p-color);
+}
+
+/* ============ mobile view .end// ============ */
+@media (max-width: 1199px) {
+.w-75 {
+    width: 90%!important;
+}	
+
+}
+@media (max-width: 991px) {
+.w-75 {
+    width: 100%!important;
+}
+	nav.navbar .nav-item .nav-link {
+		padding: 1rem 1rem;
+		color: #000000;
+	}
+	nav.navbar .nav-item.dropdown .dropdown-toggle {
+		border: 1px solid #000000;
+		color: #000000;
+		top: 20px;
+	}
+	nav.navbar .nav-item.dropdown {
+    	padding-right: 0;
+	}
+	.navbar-nav .dropdown-menu {
+		border: 0;
+		background-color: #f8f8f8;
+}
+	.dropdown-item.active,
+	.dropdown-item:active,
+	.dropdown-item.hover{
+    color: #fff!important;
+    background-color: var(--p-color);
+}
+	.owl-carousel .owl-nav button:before {
+		margin: 0 0 0 5px;		
+	}
+	nav.navbar .nav-item .nav-link:after{
+		display: none;
+	}
+	nav.navbar .nav-item.active .nav-link, nav.navbar .nav-item .nav-link:hover {
+    color: var(--p-color);
+    background-color: #f8f8f8;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.benefits-sec .benefit-col {
+    padding: 4rem 2rem;	
+}
+
+}
+
+@media (max-width: 767px) { 
+.container, .container-sm {
+    max-width: 95%;
+}
+.pt-100{
+	padding-top: 5rem;
+}
+.pb-100{
+	padding-bottom: 5rem;
+}
+.mt-100{
+	margin-top: 5rem;
+}
+.mb-100{
+	margin-bottom: 5rem;
+}
+.theme-btn,
+.more-btn {
+    padding: 1rem 2rem;
+}
+
+.benefits-sec .benefit-col {
+    padding: 4rem 2rem;	
+}
+.benefits-sec .benefit-col-one {
+    margin: 0 1rem;
+}	
+.about-sec .about-col {
+    padding: 5rem 3rem;
+    margin: 0 1.5rem;
+}
+	.feature-box{
+		margin-bottom: 2rem;
+	}	
+.nav-v-center  .owl-nav button.owl-next{
+	right: -1rem;
+}
+.nav-v-center  .owl-nav button.owl-prev{
+	left: -1rem;
+}
+footer p{
+		text-align: center;
+}
+footer ul.social-nav {
+     margin: 15px  auto 0;
+}
+	.hb-container .hb-row .hb-content-col{
+		padding-left: calc(var(--bs-gutter-x) * .5);
+	}
+	.hb-img-col {
+		margin-bottom: 2rem;
+	}
+.health-benefits-tab  .tab-content>.tab-pane {
+    position: relative;
+}
+
+.health-benefits-tab .tab-content>.tab-pane .hb-tab-img-col {
+	position: absolute;
+    z-index: 0;
+    width: 100%;
+	    right: 0;
+    padding: 0;
+	background-color: #000;
+}
+.health-benefits-tab .tab-content>.tab-pane .hb-tab-img-col img{
+	opacity: 0.5;
+}
+.health-benefits-tab .tab-content .hb-tab-content-col{
+	z-index: 1;
+}
+.health-benefits-tab .tab-content .hb-tab-content-col .hb-tab-content, .health-benefits-tab .tab-content .hb-tab-content-col .hb-tab-title {
+    margin-bottom: 3rem;
+    color: #fff;
+}
+.health-benefits-tab .nav-pills .nav-link {
+    padding: 1rem 2rem;
+}
+.health-benefits-tab .tab-content .hb-tab-content-col {
+    padding: 3rem;
+}
+	
+	
+}
+@media (max-width: 767px) and (orientation: landscape) { 
+
+
+}
+@media (min-width: 576px) {
+
+	.owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev{
+		margin: 0 5px;
+	}
+
+}
+
+
+@media (max-width: 575px) {
+	.container-fluid.contact-sec {
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	.contact-sec .contact-detail:nth-child(2) {
+		border-right: 0;
+		border-left: 0;
+		border-top: 1px solid #e0e0e0;
+		border-bottom: 1px solid #e0e0e0;
+		margin: 2rem 0;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+}
+	.about-sec:after{
+		display: none;
+	}
+
+}
+
+@media (max-width: 340px){
+	.health-benefits-tab .nav-pills .nav-link {
+		padding: 1rem 1rem;
+	}
+}

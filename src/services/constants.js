@@ -1,0 +1,3 @@
+export const ADD_HOME_DATA = "ADD_HOME_DATA";
+export const ADD_NEWS_DATA = "ADD_NEWS_DATA";
+export const ADD_CONTACT_DATA = "ADD_CONTACT_DATA";
